@@ -1,0 +1,9 @@
+# GoLand Setting Folder
+.idea
+
+# Git Setting files
+.git
+.gitignore
+
+# Other files
+README*
