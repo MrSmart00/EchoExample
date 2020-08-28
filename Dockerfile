@@ -15,8 +15,4 @@ WORKDIR /app
 
 COPY --from=build /go/bin/app .
 
-RUN addgroup go && \
-  adduser -D -G go go && \
-  chown -R go:go /app/app
-
 ENTRYPOINT ["./app"]
