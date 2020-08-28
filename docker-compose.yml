@@ -1,0 +1,9 @@
+version: '3'
+services:
+  api:
+    build: .
+    container_name: api
+    volumes:
+      - .:/go/src
+    ports:
+      - 1323:1323
